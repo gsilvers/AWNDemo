@@ -1,0 +1,49 @@
+* Notes for AWN Demo Django Example
+** Overall Project Requirements from requestor
+
+
+July 2, 2022
+
+Automotive Warranty Network, Inc.
+
+Create a project in Django project that has adds, views, and deletes customers. This application will have a main page that will have a list of customers that have been already added to the system. On the second page to add the customer to the page. Create a delete button on each row to delete that customer. All fields must be required 
+
+There should be a link of add customers in the upper right that brings you to a new page.
+
+Fields: 
+
+1. First name 
+2. Last name. 
+3. Address 
+4. City 
+5. Zip code 
+6. State dropdown 
+7. Save button 
+8. Post on GIT and link the URL
+
+** General Plan
+
+
+This code is going to be fairly simple but to do a good design the only complexity will be how we seperate responsibility. We'll have the two Django views to handle the show/delete as well as the insert functionality. The logic for handling the company will however be a middle layer. Probably a simple class or just use python dataclass to do a class containing the write to DB as well as field check logic.
+
+** Any Requirements
+
+
+As of now just will use Django and STLIB
+
+** How to Run
+
+
+No Special Deployment simply run:
+
+#+begin_src bash
+  pip install -r requirements.txt
+#+end_src
+
+To install the packages required. It should be just Django but incase you're on a fresh install or a new virtual environment. Then run:
+
+#+begin_src bash
+  python manage.py runserver
+#+end_src
+
+To run the development server to view the running project on your machine. Port is left as default so just browse to localhost port 8000.

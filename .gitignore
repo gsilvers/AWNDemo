@@ -1,3 +1,6 @@
 customer_tracker/__pycache__/$
 customer_tracker/migrations/__pycache__/$
 /__pycache__/*.pyc
+/customer_tracker/__pycache__/
+/customer_tracker/migrations/__pycache__/
+*.pyc

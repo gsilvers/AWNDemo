@@ -24,7 +24,15 @@ Fields:
 ** General Plan
 
 
-This code is going to be fairly simple but to do a good design the only complexity will be how we seperate responsibility. We'll have the two Django views to handle the show/delete as well as the insert functionality. We'll also need a model for the customer to hold the db as well as the validation on all fields. Just going to use sqllite. 
+This code is going to be fairly simple but to do a good design the only complexity will be how we seperate responsibility. We'll have the two Django views to handle the show/delete as well as the insert functionality.  A model class with some verification should do for the are the fields OK checks
+
+** TODOS
+*** TODO Create views for landing page list of customers and add a customer
+*** TODO create routes for the above
+*** TODO test basic create
+*** TODO test basic delete
+*** TODO verify list display
+*** TODO test constraints on customer
 
 ** Any Requirements
 

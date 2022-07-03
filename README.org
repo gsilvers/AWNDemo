@@ -24,7 +24,7 @@ Fields:
 ** General Plan
 
 
-This code is going to be fairly simple but to do a good design the only complexity will be how we seperate responsibility. We'll have the two Django views to handle the show/delete as well as the insert functionality. The logic for handling the company will however be a middle layer. Probably a simple class or just use python dataclass to do a class containing the write to DB as well as field check logic.
+This code is going to be fairly simple but to do a good design the only complexity will be how we seperate responsibility. We'll have the two Django views to handle the show/delete as well as the insert functionality. We'll also need a model for the customer to hold the db as well as the validation on all fields. Just going to use sqllite. 
 
 ** Any Requirements
 

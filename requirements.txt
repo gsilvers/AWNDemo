@@ -1,3 +1,9 @@
 asgiref==3.5.2
 Django==4.0.5
+jedi==0.18.1
+parso==0.8.3
+pluggy==1.0.0
+python-lsp-jsonrpc==1.0.0
+python-lsp-server==1.4.1
 sqlparse==0.4.2
+ujson==5.4.0
